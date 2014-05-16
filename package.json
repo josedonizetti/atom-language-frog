@@ -1,0 +1,12 @@
+{
+  "name": "frog-language",
+  "version": "0.0.0",
+  "description": "Frog template language support in Atom",
+  "repository": "https://github.com/josedonizetti/atom-frog-language",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
