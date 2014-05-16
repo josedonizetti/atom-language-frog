@@ -1,0 +1,42 @@
+'fileTypes': [
+  'frog'
+]
+'foldingStartMarker': ''
+'foldingStopMarker': ''
+'name': 'Frog'
+'patterns': [
+  {
+    'include': '#comments'
+  }
+  {
+    'include': '#strings'
+  }
+]
+'repository':
+  'comments':
+    'patterns': [
+      {
+          'begin': '//'
+          'captures':
+            '1':
+              'name': 'comment.line.frog'
+          'end': '$\\n?'
+          'name': 'comment.line.double-slash.source.frog'
+        }
+    ]
+  'strings':
+    'patterns': [
+      {
+        'begin': '"'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin.source.frog'
+        'end': '"'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.source.frog'
+        'name': 'string.quoted.double.source.frog'
+      }
+    ]
+
+'scopeName': 'source.frog'
