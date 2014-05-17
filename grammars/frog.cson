@@ -81,11 +81,8 @@
         }
       ]
   'block1':
-      'begin': '([\\w$]+)(\\(.*\\))\\s*(\\{)'
+      'begin': '(\\{)'
       'beginCaptures':
-        '1':
-          'name': 'storage.type.generic.source.frog'
-        '3':
           'name': 'punctuation.definition.method-parameters.begin.source.frog'
       'end': '\\}'
       'endCaptures':
